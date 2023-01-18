@@ -1,0 +1,12 @@
+.main{
+    min-height: 100vh;
+    width: 120vw;
+    background-color:white
+
+}
+.content{
+    min-height: 100vh;
+    width: 120vw;
+    display: flex;
+    padding-left: 50px;
+}
