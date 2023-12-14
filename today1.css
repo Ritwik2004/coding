@@ -37,6 +37,19 @@ body{
     top: 0px;
     left: 0px;
 }
+/* .nav_n{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px -10px 31px rgb(160, 159, 159);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: white;
+} */
 .n1{
     height: 100%;
     width: 25%;
@@ -48,6 +61,17 @@ body{
     font-weight: 700;
     text-shadow: 6px 3px 5px rgb(68, 67, 67);
 }
+/* .n1_n{
+    height: 100%;
+    width: 25%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 6px 3px 5px rgb(236, 233, 233);
+} */
 .n2{
     height: 100%;
     width: 45%;
@@ -77,9 +101,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.4s;
+
 }
-.darkmode{
-    transition: .4s;
+#darkmode{
+    transition: 0.4s;
 
 }
 /* .n2 ul{
@@ -116,21 +142,27 @@ body{
     display: flex;
     align-items: center;
 }
-.mid{
+#midn{
     height: 100%;
     width: 20%;
     padding: 20px 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+.mid{
+    color: rgb(255, 115, 0);
     background-color: #fff;
 }
-.mid span{
+/* .mid_n{
+    color: rgb(241, 158, 90);
+    background-color: rgb(46, 45, 45);
+} */
+#midn span{
     font-size: 35px;
     font-weight: 700;
     text-shadow: 3px 6px 5px grey;
     text-decoration: underline;
-    color: rgb(255, 115, 0);
 }
 .right{
     height: 100%;
@@ -139,7 +171,7 @@ body{
     align-items: center;
     justify-content: flex-end;
 }
-.code{
+#coden{
     height: calc(100% - 300px);
     width: 100%;
     display: flex;
@@ -147,22 +179,36 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 1%;
-
 }
+.code{
+    background-color: white;
+}
+/* .code_n{
+    background-color: black;
+} */
 .c{
     height: 33%;
     width: 98.5%;
     border-radius: 20px;
-    /* border: 3px solid goldenrod; */
     box-shadow: 3px 3px 9px grey;
     padding: 30px 0px;
     display: flex;
+    background-color: white;
 }
+/* .c_n{
+    height: 33%;
+    width: 98.5%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 9px grey;
+    padding: 30px 0px;
+    display: flex;
+    background-color: rgb(48, 46, 46);
+    color: white;
+} */
 .c_left{
     padding-top: 15px;
     height: 100%;
     width: 30%;
-    /* border-radius: 20px; */
     display: flex;
     align-items: center;
     justify-content: center;
