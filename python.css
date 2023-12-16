@@ -6,6 +6,22 @@ body{
     height: 100vh;
     width: 100%;
 }
+.up{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: fixed;
+    top: 60px;
+    left: 60px;
+    /* background-color: #b2afaf; */
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+    border: 1px solid black;
+}
 .nav{
     height: 50px;
     width: 100%;
