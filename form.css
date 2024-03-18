@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.up{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: fixed;
+    top: 60px;
+    left: 60px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(252, 252, 252);
+    border: 1px solid rgb(255, 255, 255);
+}
+.styled {
+    cursor: pointer;
+    
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    /* color: #fff; */
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(253, 209, 79);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+    background-color: rgb(244, 202, 76);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.login{
+    width: 360px;
+    height: auto;
+    padding: 40px 45px;
+    border-radius: 12px;
+    backdrop-filter: blur(15px);
+    margin-top: 50px;
+    color: white;
+    box-shadow:inset 0px 0px 10px rgb(254, 254, 254);
+}
+/* .login h1{
+    margin-bottom: 25px;
+} .First .Second .Third .forth .fifth .sixth{
+    font-size: 20px;
+}
+.First .Second .Third .forth .fifth {
+    margin-bottom: 12px;
+
+} */
+.First{
+    font-size: 20px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login input[type="submit"]{
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+
+.Second{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.Second p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.Second input{
+    height: 30px;
+    width: 90%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.Third{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.Third label{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.Third input{
+    height: 30px;
+    width: 90%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.passwordtype{
+    font-size: 19px;
+    margin-top: 10px;
+    transition: .8s;
+}
+.npasswordtype{
+    display: none;
+    transition: .8s;
+}
+.fifth{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+#check{
+    cursor: pointer;
+}
+.sixth{
+    height: 40px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;align-items: center;
+    justify-content: center;
+
+}
+.sixth button{
+    height: 100%;
+    width: 90%;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+.login .color{
+    color: rgb(220, 38, 38);
+}
+.seventh{
+    height: 20px;
+    width: 100%;
+    margin-top: 15px;
+}
+.seventh a{    
+    color: rgb(145, 255, 0);
+}
+.hide{
+    display: none;
+    height: 0px;
+    width: 0px;
+    transition: .4s;
+}
+.box10{
+    height: 100%;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

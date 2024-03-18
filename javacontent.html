@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javacontent</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="javacontent.css">
+</head>
+<body>
+    <div class="show-nothing" id="ss">
+        <ul>
+            <li class="item"><a href="./pythonprogramming.html">Python</a></li>
+            <li class="item">C++</li>
+            <li class="item"><a href="#t7">JDK</a></li>
+            <li class="item">JRE</li>
+            <li class="item">JVM</li>
+            <li class="item">Data type in java</li>
+            <li class="item">Data type in python</li>
+            <li class="item">Data type in c++</li>
+            <li class="item">Introduction of java</li>
+        </ul>
+    </div>
+    <div class="nav" id="nv">
+        <div class="logo" id="lg">
+            <span>&lt; Coding Inside / &gt;</span>
+        </div>
+        <div class="free">
+            <div class="searchbar">
+            <input type="search" id="serh" class="search" name="search" placeholder="Search" onkeyup="searchlist()" onkeypress="showlist()">
+        </div>
+        <div class="searchlable">
+            <label for="serh"><i class="fa-solid fa-magnifying-glass"></i></label>
+        </div>
+        </div>
+        <div class="others">
+            <div class="contact" id="cnt">
+                <a href="#"><span><i class="fa-solid fa-id-card-clip"></i> Contact</span></a>
+            </div>
+            <div class="login" id="lgn">
+                <a href="./form.html"><i class="fa-solid fa-user"></i> Login</a>
+            </div>
+            <div class="signin" id="sgn">
+                <a href="./signin.html"><i class="fa-solid fa-user-plus"></i> Sigin in</a>
+            </div>
+            <div class="dl" onclick="nightmode()" id="mode">
+                <i class="fa-solid fa-sun" id="darkmode"></i>
+            </div>
+            <div class="profile" id="prfl">
+                <i class="fa-solid fa-circle-user chat_6"></i>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="topics">
+            <span style="font-size: 28px; text-decoration: underline;"><b>Topics</b></span>
+            <a href="#t1"><span>What is java</span></a>
+            <a href="#t2"><span>Introduction</span></a>
+            <a href="#t3"><span>Uses</span></a>
+            <a href="#t4"><span>Why java is populer</span></a>
+            <a href="#t5"><span>Platform Independent</span></a>
+            <a href="#t6"><span>Installation Process</span></a>
+            <a href="#t7"><span>JDK</span></a>
+            <a href="#t8"><span>JRE</span></a>
+            <a href="#t9"><span>JVM</span></a>
+        </div>
+        <div class="content">
+            <span id="t1">What is java ?</span>
+            <p>Java is a popular Programming language whichis also high level, platform independent, multi threaded, distributed Programming language which also support OOP(Object Oriented Programming).</p>
+            <br>
+            <span id="t2">Introduction</span>
+            <p>In first time, Java was developed by <b><i>Sun Microsystems</i></b> in the year of 1995, Which is updeted by the subsidiary of <b><i>oracle</i></b>.</p>
+            <p>Here, <b><i>Jemes Goesling</i></b> is known as the father of java language. And in this tyme more than <b><i>3 billion</i></b> devices run java program.</p>
+            <br>
+            <span id="t3">Useus</span>
+            <p>In this time, java is most popular in all coding languages. It is use in severals works. <br> Like : </p><br>
+            <ul>
+                <li>By using this language, we can develope <b><i>Mobile Application</i></b>.</li>
+                <li>By using this language, we can develope <b><i>Desktop Application</i></b>.</li>
+                <li>We can use java in <b><i>Web developement</i></b>.</li>
+                <li>It also use to <b><i>Game developement</i></b>.</li>
+                <li>It is use in <b><i>Database Connection</i></b>.</li>
+                <li>By this, we also make a <b><i>web server</i></b> or <b><i>Application Server</i></b>.</li>
+            </ul>
+            <br>
+            <span id="t4">Why java is popular ?</span>
+            <p>Java is  so populer in this time because, it is also work in different platform (like : Windows, Linux, Mac etc). In current job market, it has a large demand. It is a simple to use and also easy to learn. It also a Open source and free to access. It is so much secure and so powerful -for this, it use to develope Mobile application, website, Web Server etc. It is a <b><i>Object Oriented Programming</i></b> and also support <b><i>multi threading, Exception Handeling</i></b> etc.</p>
+            <br>
+            <span id="t5">Platform Independent</span>
+            <p>Java is also platform independent because after write java code, When it is compiled, it return us a butecode which can be run in any device or differenty platform where installed JVM(Java Virtual Machine).</p>
+            <br>
+            <span id="t6">Installation Process</span>
+            <p>It is also previously inslalled in some PC.</p>
+            <p>TO check this, Open Command Prompt and type <b><i>"java --version"</i></b></p>
+            <div class="checkversion">
+                <p>c : \ Users \ Your Name > java --version</p>
+            </div>
+            <p>-by run this, we can see the version of the jdk(Which is installed in the device)</p> <br>
+            <div class="instvideo">
+            <a href="#">Click here to see how to install java in our PC from youtube</a>
+        </div> 
+        <br>
+        <span id="t7">JDK</span>
+        <p>JDK Stands for java devolopement kit. It internally contains <b><i>JRE(Java Runtime Invironment)</i></b> and <b><i>JVM(Java Virtual Machine)</i></b>. It provides all the tools to work with Java language.</p>
+        <br>
+        <span id="t8">JRE</span>
+        <p>JRE Stands for Java Runtime Environment. Its provides an environment to exicute the java program. It instantly contains JVM(Java Virtual Machine) which is responsible to execute a java Program.</p>
+        <br>
+        <span id="t9">JVM</span>
+        <p>JVM stands for Java Virtual Machine. It is the form of interpreter written in 'c' language through which we can execute our java programs. It is an integral part of the Java Runtime Environment(JRE) and is responsible for execution java bytecode. JVM provides platform independence by translating java bytecode int machine-specific-code. This allow java application to run any device with a compatible JVM.</p>
+        <br>
+        <div class="structure1">
+            <img src="JVM,JDK,JRE Structure.png" alt="Structure1" height="250px" width="auto">
+        </div>
+        
+        </div>
+    </div>
+</body>
+<script src="./javacontent.js"></script>
+</html>

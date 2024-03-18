@@ -1,0 +1,191 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.up{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: fixed;
+    top: 60px;
+    left: 60px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+.main{
+    height: auto;
+    width: auto;
+    padding: 40px 55px;
+    box-shadow: 0px 0px 10px rgb(151, 149, 149);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    position: absolute;
+    /* margin-top: 35px; */
+    transition: .4s;
+}
+.hide{
+    display: none;
+    height: 0px;
+    width: 0px;
+    transition: .4s;
+}
+.box0{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+}
+.box1{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.box1 input{
+    height: 30px;
+    width: 15rem;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.box2{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.box2 label{
+    margin-right: 15px;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+}
+.box2 input{
+    cursor: pointer;
+}
+.box3{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.box3 input{
+    height: 30px;
+    width: 15rem;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.box4{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.box4 input{
+    height: 30px;
+    width: 15rem;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.box5{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.box5 input{
+    height: 30px;
+    width: 15rem;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.box6{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.box6 input{
+    height: 30px;
+    width: 15rem;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.box7{
+    height: 45px;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+}
+.box7 button{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box8{
+    height: auto;
+    width: auto;
+    padding: 40px 55px;
+    box-shadow: 0px 0px 10px rgb(151, 149, 149);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    position: absolute;
+    margin-top: 35px;
+    transition: .4s;
+    color: white;
+    font-size: 25px;
+}
+.box8 input{
+    height: 30px;
+    width: 15rem;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.box9{
+    height: 45px;
+    width: 100%;
+}
+.box9 input{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box10{
+    height: 100%;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+    <a href="index.html">
+        <div class="up">
+         <i class="fa-solid fa-angles-left" id="back"></i>
+        </div>
+    </a>
+    <!-- <div class="nav">
+        <a href="index.html"><button class="styled">Home</button></a>
+    </div> -->
+    <div class="login" id="firstform">
+        <div class="First">
+        <h1 class="text-center">Hello!! Welcome to Codding Inside !!!</h1>
+    </div>
+    <div class="Second">
+        <p>Username :<br><input type="text" name="text" id="text" required placeholder="Enter Username"></p>
+    </div>
+    <div class="Third">
+        <label for="Password">password :</label>
+        <br>
+        <input type="Password" name="Password" value="Null@123" id="password" onclick="addpassword()" required>
+        <p class="npasswordtype" id="pt">[<i> There are minimum <b style="color: rgb(250, 255, 104); font-weight: 900;"> one block letter & one small letter & one number & one unique element(minimum 8 element)</b>... </i>]</p>
+    </div>
+    <br>
+    <div class="fifth">
+        <input type="checkbox" id="check" required>
+        <label for="check">Remember Me</label>
+    </div>
+        <br>
+        <div class="sixth">
+        <!-- <a href="index2.html"> -->
+            <button onclick="checkpassword()">submit</button>
+        <!-- </a> -->
+    </div>
+    <div class="seventh">
+        <a href="./forgotpassword.html">forgot password ? </a>
+    </div>
+    <div class="seventh">
+        <p>Do not have any account ?</p>
+        <a href="signin.html">Click here to signin...</a>
+
+    </div>
+    </div>
+    <div id="third" class="hide">
+        <span>Thanks for login !!!</span>
+        <br>
+        <span>Press home button !!!</span>
+    </div>
+</body>
+<script>
+    function addpassword()
+    {
+            let pt=document.getElementById("pt");
+            pt.classList.toggle("npasswordtype");
+            pt.classList.toggle("passwordtype");
+    }
+//     function validation()
+//     {
+//         let pt=document.getElementById("pt");
+//         pt.classList.toggle("npasswordtype");
+//         pt.classList.toggle("passwordtype");
+//         let flag=null;
+//         var block=null;
+//         var small=null;
+//         var unique=null;
+//         var num=null;
+//     setInterval(() => {
+//         let password=document.getElementById("password").value;
+//         let s=password.toString();
+//         let l=s.length;
+//         for(let i=0;i<l;i++)
+//         {
+//             let code=s.charCodeAt(i);
+//             if(48<=code && code>=57)
+//             {
+//                 num++;
+//                 // console.log(num);
+//             }
+//             else if(65<=code && code>=90)
+//             {
+//                 block++;
+//                 // console.log(block);
+//             }
+//             else if(97<=code && code>=122)
+//             {
+//                 small++;
+//                 // console.log(small);
+//             }
+//             else if((33<=code && code>=47) || (58<=code && code>=64) || (91<=code && code>=96) || (123<=code && code>=126))
+//             {
+//                 unique++;
+//                 // console.log(unique);
+//             }
+//         }
+//         if(num>0 && block>0 && small>0 && unique>0)
+//         {
+//             flag=4;
+//         }
+//         console.log(flag);
+//     }, 100);
+//     return flag;
+// }
+    function checkpassword()
+    {
+        let password=document.getElementById("password").value;
+        if(password != "Null@123")
+        {
+            tologin();
+        }
+        else{
+            alert("Please select a valid password !!!");
+        }
+    }
+    function tologin()
+    {
+        let firstform=document.getElementById("firstform");
+        firstform.classList.toggle("login");
+        firstform.classList.toggle("hide");
+        let back=document.getElementById("back");
+        back.classList.toggle("fa-angles-left");
+        back.classList.toggle("fa-house");
+        let third = document.getElementById("third");
+        third.classList.toggle("hide");
+        third.classList.toggle("box10");
+        msg="Successfully Login";
+        setTimeout("alert(msg)",1000);
+        // let result=password.charCodeAt(0);
+        // console.log(password);
+
+    }
+</script>
+</html>
